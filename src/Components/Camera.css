@@ -1,0 +1,33 @@
+.camera {
+    text-align: center;
+    margin: 16px
+}
+
+.camera__buttom {
+    text-align: center;
+}
+
+.camera__buttom>button {
+    padding: 8px;
+    margin: 8px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.camera__buttom>button:hover {
+    background-color: white;
+    color: black;
+}
+
+.camera__download {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image__name {
+    margin: 8px;
+}
